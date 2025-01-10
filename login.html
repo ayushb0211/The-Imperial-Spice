@@ -1,0 +1,56 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+        <div class="container d-flex align-items-center">
+
+            <div class="logo mr-auto">
+                <centre><h1 class="text-light"><span>The Imperial Spice</span></a></h1></centre>
+            </div>
+        
+           
+    <div class="container">
+        <h2> Login</h2>
+        <!-- <form action="login.php" method="post"> -->
+        <form action="login.php" method="post">
+            <input type="hidden" name="user_type" value="customer">
+            <div class="form-group">
+                <label for="customer_name">Name:</label>
+                <input type="text" id="customer_name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="customer_password">Password:</label>
+                <input type="password" id="customer_password" name="password" required>
+            </div>
+            <button type="submit" name="login">Login as Customer</button>
+        </form>
+        
+        <h2>Admin Login</h2>
+        <form action="login.php" method="post">
+            <input type="hidden" name="user_type" value="admin">
+            <div class="form-group">
+                <label for="admin_name">Username:</label>
+                <input type="text" id="admin_name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="admin_password">Password:</label>
+                <input type="password" id="admin_password" name="password" required>
+            </div>
+            <button type="submit" name="login">Login as Admin</button>
+        </form>
+ 
+    </div>
+
+</body>
+</html>

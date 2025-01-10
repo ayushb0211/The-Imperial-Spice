@@ -1,0 +1,61 @@
+body {
+    /* Existing styles here... */
+    background-image: url('assets/img/gallery/gallery-4.jpg');
+    background-repeat: no-repeat; /* Image won't repeat */
+    background-position: center; /* Image centered horizontally and vertically */
+    background-size: cover; /* Image resized to cover the entire body */
+    /* background-color: #6a94c2; */
+    /* background: linear-gradient(to top, #09203f 0%, #537895 100%); */
+  }
+  
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    background-color: beige;
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  
+}
+
+.form-group {
+    margin-bottom: 20px;
+  
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+div h1 span{
+    font-size: xx-large;
+}
